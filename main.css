@@ -1,3 +1,10 @@
 body {
     background-color: blanchedalmond;
 }
+
+.project {
+    text-align: center;
+    width: 300px;
+    height: 400px;
+    border: 1px solid black;
+}
