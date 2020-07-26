@@ -33,3 +33,4 @@ const createProjectCards = () => {
     printToDom('projectsPage', domString);
   }
   createProjectCards();
+  // console.log(projects[0].description)
