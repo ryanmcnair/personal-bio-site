@@ -2,6 +2,20 @@ body {
     background-color: blanchedalmond;
 }
 
+#navLinks {
+    display: flex;
+    justify-content: space-around;
+    font-size: x-large;
+    align-items: center;
+    background-color: rgb(204, 143, 99);
+    border: 2px solid black;
+    border-radius: 2px;
+}
+
+.fullPage h1{
+    
+}
+
 .project {
     text-align: center;
     width: 300px;
