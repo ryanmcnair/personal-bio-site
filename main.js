@@ -21,16 +21,17 @@ const createProjectCards = () => {
 
     for (let i = 0; i < projects.length; i++) {
         domString += `<div class="project">`
-        domString +=    `<h2>${projects[i].title}</h2>`
-        domString +=    `<img src="${projects[i].screenshot}/>`
-        domString +=    `<div>Description: ${projects[i].description}</div>`
-        domString +=    `<h3>${projects[i].technologiesUsed}</h3>`
-        domString +=    `<a href="${projects[i].url}">See the project here</a><br></br>`
-        domString +=    `<a href="${projects[i].githubUrl}">GitHub</a>`
+        domString +=    `<h1>${projects[i].title}</h1>`;
+        domString +=    `<div><img src=${projects[i].screenshot}></div>`;
+        domString +=    `<h2>Description: ${projects[i].description}</h2>`;
+        domString +=    `<h3>Technologies Used: ${projects[i].technologiesUsed}</h3>`;
+        domString +=    `<h3>${projects[i].available}</h3>`;
+        domString +=    `<h4><a href=${projects[i].url}>See the project here</a</h4>`;
+        domString +=    `<h5><a href="${projects[i].githubUrl}">GitHub</a></h5>`;
         domString += `</div>`
  
     }
     printToDom('projectsPage', domString);
   }
   createProjectCards();
-  // console.log(projects[0].description)
+  console.log(projects[0].description)
