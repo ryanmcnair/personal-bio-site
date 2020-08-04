@@ -1,18 +1,27 @@
 body {
-    background-color: blanchedalmond;
+    background-color: #fbe8a6;
+    font-family: 'Special Elite', cursive;
+    padding: 10px;
 }
+/* 
+header {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    background-color: #f4976c;
+} */
 
-#navLinks {
+/* #navLinks {
     display: flex;
     justify-content: space-around;
     font-size: x-large;
     align-items: center;
-    background-color: rgb(204, 143, 99);
+    background-color: #f4976c;
     border: 2px solid black;
     border-radius: 2px;
     list-style-type: none;
     text-decoration: none;
-}
+} */
 
 .project {
     text-align: center;
