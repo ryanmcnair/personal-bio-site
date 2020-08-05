@@ -3,42 +3,51 @@ body {
     font-family: 'Special Elite', cursive;
     padding: 10px;
 }
-/* 
-header {
-    display: flex;
-    justify-content: space-between;
-    text-align: left;
-    background-color: #f4976c;
-} */
 
-/* #navLinks {
-    display: flex;
-    justify-content: space-around;
-    font-size: x-large;
-    align-items: center;
-    background-color: #f4976c;
-    border: 2px solid black;
-    border-radius: 2px;
-    list-style-type: none;
+/* header {
+    color: black;
     text-decoration: none;
 } */
 
-.project {
-    text-align: center;
+.ryan-pic {
+    display: flex;
+    justify-content: center;
+    height: 200px;
     width: 300px;
-    height: 550px;
+    border: 10px black;
+}
+
+.project-card {
+    display: flex;
+    margin: 1%;
     border: 2px solid black;
 }
 
-.project h1 {
-    border: 5px solid black;
-    background-color: forestgreen;
-    position: relative;
-    top: 5px;
-    padding: 5px;
-    margin: 1px 5px 1px 5px;
+
+.project-image {
+    width: 40%;
+    border-right: 2px solid black;
+    margin: 0;
 }
 
-.project img {
-    padding: 2px;
+.project-details {
+    width: 100%;
+    margin: auto 5% auto 5%;
+}
+
+.project-details-title {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.project-details-technologies {
+    font-weight: lighter;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.project-details-link {
+    color: black;
+    font-size: 16px;
+    margin: 10px 25px 10px 1px;
 }
