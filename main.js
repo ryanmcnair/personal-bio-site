@@ -19,45 +19,50 @@ const projects = [
   },
 ];
 
-const printToDom = (divId, textToPrint) => {
-    const selectedDiv = document.getElementById(divId);
-    selectedDiv.innerHTML = textToPrint;
-    }
+// const printToDom = (divId, textToPrint) => {
+//     const selectedDiv = document.getElementById(divId);
+//     selectedDiv.innerHTML = textToPrint;
+//     }
     
-const createProjectCards = () => {
-  let domString = "";
-    for(let i = 0; i < projects.length; i++){
-      if (projects[i].available){
-        domString+=`<div class="project-card">
-                      <img src="${projects[i].screenshot}" alt="${projects[i].title}" class="project-image">
-                      <div class="project-details">
-                      <h1 class="project-details-title">${projects[i].title}</h1>
-                             <p class="project-details-description">${projects[i].description}</p>
-                             <p class="project-details-technologies">Technologies used: ${projects[i].technologiesUsed}</p>
-                             <a class="project-details-link" href="${projects[i].url}">${projects[i].url}</a><p></p>
-                             <a class="project-details-git" href="${projects[i].githubUrl}">${projects[i].githubUrl}</a>
-                            </div>
-                          </div>` 
-          }
-      }
-      printToDom("projectsPage", domString);
-  }
-createProjectCards();
-
-// const createProjectCard = () => {
+// const createProjectCards = () => {
 //   let domString = "";
-//       if (projects[0].available){
+//     for(let i = 0; i < projects.length; i++){
+//       if (projects[i].available){
 //         domString+=`<div class="project-card">
-//                       <img src="${projects[0].screenshot}" alt="${projects[0].title}" class="project-image">
+//                       <img src="${projects[i].screenshot}" alt="${projects[i].title}" class="project-image">
 //                       <div class="project-details">
-//                       <h1 class="project-details-title">${projects[0].title}</h1>
-//                              <p class="project-details-description">${projects[0].description}</p>
-//                              <p class="project-details-technologies">${projects[0].technologiesUsed}</p>
-//                              <p class="project-details-github">${projects[0].githubUrl}</p>
-//                              <p class="project-details-link">${projects[0].url}</p>
+//                       <h1 class="project-details-title">${projects[i].title}</h1>
+//                              <p class="project-details-description">${projects[i].description}</p>
+//                              <p class="project-details-technologies">Technologies used: ${projects[i].technologiesUsed}</p>
+//                              <a class="project-details-link" href="${projects[i].url}">${projects[i].url}</a><p></p>
+//                              <a class="project-details-git" href="${projects[i].githubUrl}">${projects[i].githubUrl}</a>
 //                             </div>
 //                           </div>` 
 //           }
+//       }
 //       printToDom("projectsPage", domString);
 //   }
-// createProjectCard();
+// createProjectCards();
+
+const renderToDom = (divId, textToPrint) => {
+  const selectedDiv = document.getElementById(divId);
+  selectedDiv.innerHTML = textToPrint;
+  }
+
+const createProjectCard = () => {
+  let domString = "";
+      if (projects[0].available){
+        domString+=`<div class="project-card">
+                      <img src="${projects[0].screenshot}" alt="${projects[0].title}" class="project-image">
+                      <div class="project-details">
+                      <h1 class="project-details-title">${projects[0].title}</h1>
+                             <p class="project-details-description">${projects[0].description}</p>
+                             <p class="project-details-technologies">${projects[0].technologiesUsed}</p>
+                             <p class="project-details-github">${projects[0].githubUrl}</p>
+                             <p class="project-details-link">${projects[0].url}</p>
+                            </div>
+                          </div>` 
+          }
+      renderToDom("projectsPage", domString);
+  }
+createProjectCard();
