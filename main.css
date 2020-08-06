@@ -33,14 +33,16 @@ body {
 .project-card {
     display: flex;
     flex-direction: row-reverse;
-    margin: 1%;
-    border: 2px solid black;
+    margin: 2%;
+    border: 2px solid #303c6c;
     background-color: #f4976c;
+    border-radius: 5px;
+    box-shadow: 5px 5px #b4dfe5;
 }
 
 .project-image {
     width: 40%;
-    border-right: 2px solid black;
+    border-right: 2px solid #303c6c;
     margin: 0;
 }
 
