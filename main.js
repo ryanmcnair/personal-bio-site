@@ -57,9 +57,8 @@ const createProjectCard = () => {
                       <div class="project-details">
                       <h1 class="project-details-title">${projects[0].title}</h1>
                              <p class="project-details-description">${projects[0].description}</p>
-                             <p class="project-details-technologies">${projects[0].technologiesUsed}</p>
-                             <p class="project-details-github">${projects[0].githubUrl}</p>
-                             <p class="project-details-link">${projects[0].url}</p>
+                             <p class="project-details-technologies">Technologies used: ${projects[0].technologiesUsed}</p>
+                             <p><a href="webdev.html">See more here </a></p>
                             </div>
                           </div>` 
           }
