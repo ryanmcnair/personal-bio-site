@@ -11,7 +11,7 @@ const projects = [
 {
   title: "Adoption Cards", 
   screenshot: "https://user-images.githubusercontent.com/67588177/89481992-8ff02880-d75e-11ea-9d37-732032727eb3.png", 
-  description: "Tasked with showing the user 4 category buttons at the top of the page and to be able to filter each card by type. One button will undo the filtered results.",
+  description: "Tasked with showing the user 4 category buttons at the top of the page with the ability to filter each card by type. One button will undo the filtered results.",
   technologiesUsed: "HTML, CSS & JavaScript",
   available: true,
   url: "https://adoptioncards-mcnair.netlify.app/",
