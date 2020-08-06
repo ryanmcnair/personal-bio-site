@@ -8,6 +8,15 @@ const projects = [
     url: "https://sortinghat-mcnair.netlify.app/",
     githubUrl: "https://github.com/ryanmcnair/sorting-hat",
   },
+  {
+    title: "Adoption Cards", 
+    screenshot: "https://user-images.githubusercontent.com/67588177/89481992-8ff02880-d75e-11ea-9d37-732032727eb3.png", 
+    description: "Tasked with showing the user 4 category buttons at the top of the page and to be able to filter each card by type. One button will undo the filtered results.",
+    technologiesUsed: "HTML, CSS & JavaScript",
+    available: true,
+    url: "https://adoptioncards-mcnair.netlify.app/",
+    githubUrl: "https://github.com/ryanmcnair/event-listeners",
+  },
     {
     title: "Product Cards", 
     screenshot: "https://user-images.githubusercontent.com/67588177/89460343-bfd40780-d72f-11ea-8489-a9de88929c38.png", 
