@@ -10,7 +10,7 @@ const projects = [
 },
 {
   title: "Color Flipper", 
-  screenshot: "https://user-images.githubusercontent.com/67588177/89481992-8ff02880-d75e-11ea-9d37-732032727eb3.png", 
+  screenshot: "https://user-images.githubusercontent.com/67588177/89594422-57f8ec00-d817-11ea-9f48-5294d21cebba.png", 
   description: "Group Assignment: Tasked with allowing a user to choose a random color or a random hex color by a button click on screen. The Simple color selection chooses the color randomly from an array and the Hex color selector randomly generates a color's hex code.",
   technologiesUsed: "HTML, CSS, JavaScript & Bootstrap",
   available: true,
