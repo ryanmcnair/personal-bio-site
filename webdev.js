@@ -9,9 +9,18 @@ const projects = [
   githubUrl: "https://github.com/ryanmcnair/sorting-hat",
 },
 {
+  title: "Color Flipper", 
+  screenshot: "https://user-images.githubusercontent.com/67588177/89481992-8ff02880-d75e-11ea-9d37-732032727eb3.png", 
+  description: "Group Assignment: Tasked with allowing a user to choose a random color or a random hex color by a button click on screen. The Simple color selection chooses the color randomly from an array and the Hex color selector randomly generates a color's hex code.",
+  technologiesUsed: "HTML, CSS, JavaScript & Bootstrap",
+  available: true,
+  url: "https://colorflipper-mcnair.netlify.app/",
+  githubUrl: "https://github.com/ryanmcnair/event-listeners",
+},
+{
   title: "Adoption Cards", 
   screenshot: "https://user-images.githubusercontent.com/67588177/89481992-8ff02880-d75e-11ea-9d37-732032727eb3.png", 
-  description: "Tasked with showing the user 4 category buttons at the top of the page with the ability to filter each card by type. One button will undo the filtered results.",
+  description: "Tasked with showing the user 4 category buttons at the top of the page and to be able to filter each card by type. One button will undo the filtered results.",
   technologiesUsed: "HTML, CSS & JavaScript",
   available: true,
   url: "https://adoptioncards-mcnair.netlify.app/",
@@ -43,8 +52,8 @@ const createProjectCards = () => {
                       <h1 class="project-details-title">${projects[i].title}</h1>
                              <p class="project-details-description">${projects[i].description}</p>
                              <p class="project-details-technologies">Technologies used: ${projects[i].technologiesUsed}</p>
-                             <a class="project-details-link" href="${projects[i].url}">${projects[i].url}</a><p></p>
-                             <a class="project-details-git" href="${projects[i].githubUrl}">${projects[i].githubUrl}</a>
+                             <p>Link: <a class="project-details-link" href="${projects[i].url}">${projects[i].url}</a></p>
+                             <p>GitHub: <a class="project-details-git" href="${projects[i].githubUrl}">${projects[i].githubUrl}</a></p>
                             </div>
                           </div>` 
           }

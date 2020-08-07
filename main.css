@@ -33,16 +33,19 @@ body {
 .project-card {
     display: flex;
     flex-direction: row-reverse;
-    margin: 2%;
+    margin: 3% auto;
     border: 2px solid #303c6c;
     background-color: #f4976c;
     border-radius: 5px;
-    box-shadow: 5px 5px #b4dfe5;
+    box-shadow: 0 15px 30px 1px #b4dfe5;
+    overflow: hidden;
+    width: 95%;
 }
 
 .project-image {
-    width: 40%;
-    border-right: 2px solid #303c6c;
+    height: 400px;
+    width: 55%;
+    border-left: 2px solid #303c6c;
     margin: 0;
 }
 
@@ -52,8 +55,9 @@ body {
 }
 
 .project-details-title {
-    font-size: 30px;
-    font-weight: bolder;
+    font-size: 20px;
     margin-bottom: 10px;
+    text-decoration: underline;
 }
+
 
