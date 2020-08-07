@@ -15,7 +15,7 @@ const projects = [
     technologiesUsed: "HTML, CSS, JavaScript & Bootstrap",
     available: true,
     url: "https://colorflipper-mcnair.netlify.app/",
-    githubUrl: "https://github.com/ryanmcnair/event-listeners",
+    githubUrl: "https://github.com/ryanmcnair/color-flipper",
   },
   {
     title: "Adoption Cards", 

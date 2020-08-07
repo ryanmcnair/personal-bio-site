@@ -11,11 +11,11 @@ const projects = [
 {
   title: "Color Flipper", 
   screenshot: "https://user-images.githubusercontent.com/67588177/89594422-57f8ec00-d817-11ea-9f48-5294d21cebba.png", 
-  description: "Group Assignment: Tasked with allowing a user to choose a random color or a random hex color by a button click on screen. The Simple color selection chooses the color randomly from an array and the Hex color selector randomly generates a color's hex code.",
+  description: "Group Assignment: Tasked with allowing a user to choose a random simple color or a random hex color by a button click on screen. The Simple color selection chooses the color randomly from an array and the Hex color selector randomly generates a color's hex code.",
   technologiesUsed: "HTML, CSS, JavaScript & Bootstrap",
   available: true,
   url: "https://colorflipper-mcnair.netlify.app/",
-  githubUrl: "https://github.com/ryanmcnair/event-listeners",
+  githubUrl: "https://github.com/ryanmcnair/color-flipper",
 },
 {
   title: "Adoption Cards", 
